@@ -4,16 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "vercel dev"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vercel": "^24.0.0"
+    "@now/node": "^1.8.5"
   },
   "dependencies": {
-    "http-proxy-middleware": "^2.0.4"
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "request": "^2.88.2"
   }
 }
